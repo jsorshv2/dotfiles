@@ -1,0 +1,29 @@
+format = """
+$directory$git_branch$git_status
+$character"""
+
+[directory]
+style = "bold teal"
+home_symbol = "~"
+truncation_length = 3
+disabled = false
+
+[character]
+success_symbol = "[❯](bold lavender) "
+error_symbol = "[❯](bold red) "
+
+[git_branch]
+symbol = " "
+style = "bold mauve"
+
+[git_status]
+style = "bold peach"
+
+[palettes.catppuccin_mocha]
+teal     = "#94e2d5"
+lavender = "#b4bfe2"
+mauve    = "#cba6f7"
+peach    = "#fab387"
+red      = "#f38ba8"
+
+palette = "catppuccin_mocha"
